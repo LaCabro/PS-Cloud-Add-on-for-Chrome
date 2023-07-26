@@ -9,6 +9,7 @@ Professional Services Add-on for Google Chrome which helps to access the Cloud S
 **How to Use:**
 
 Enter the cloud stack name in the "stack name" box, if you click on "go" or press enter, Chrome will be opening a new tab redirecting you to the Search heads of the Stack, however if you click in "Stack Details" you will be redirected to Skynet.
+
 <img width="317" alt="Screenshot 2023-07-26 at 09 11 20" src="https://github.com/LaCabro/PS-Cloud-Add-on-for-Chrome/assets/92390548/cfd63893-41ab-4d63-b59a-94b7fe97e931">
 
 **How to install it:**
