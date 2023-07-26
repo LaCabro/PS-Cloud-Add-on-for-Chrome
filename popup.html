@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PS Cloud Tools</title>
+  <style>
+    body {
+      width: 300px;
+      height: 360px;
+      font-family: Arial, sans-serif;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .container {      
+      flex-direction: column;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      border-radius: 10px;
+      background-color: #f2f2f2;
+    }
+
+    .input-container {
+      margin-bottom: 10px;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    button#skynet {
+      background-color: #45a049;
+    }
+
+    button#skynet:hover {
+      background-color: #45a049;
+    }
+
+    button#stgConsole {
+      background-color: #007bff;
+    }
+
+    button#stgConsole:hover {
+      background-color: #0056b3;
+    }
+    
+    button#DevSkynet {
+      background-color: #007bff;
+    }
+
+    button#DevSkynet:hover {
+      background-color: #0056b3;
+    }
+
+    button#cloudOkta {
+      background-color: #007bff;
+    }
+
+    button#cloudOkta:hover {
+      background-color: #0056b3;
+    }
+
+    .separator {
+      width: 100%;
+      margin: 10px 0;
+      text-align: center;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="input-container">
+      <input type="text" id="stackNameInput" placeholder="Stack Name">
+    </div>
+    <div class="button-container">
+      <button id="goButton">Go</button>
+      <button id="skynet">Stack Details (Skynet)</button>
+      <p class="separator">Other Useful Links</p>
+      <button id="stgConsole">Create STG Stacks</button>
+      <button id="DevSkynet">Dev Skynet</button>
+      <button id="cloudOkta">Splunk Cloud Okta</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
